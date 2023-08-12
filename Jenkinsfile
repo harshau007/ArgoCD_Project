@@ -17,5 +17,22 @@ pipeline{
                 }
             }
         }
+        stage('Dockerize Application') {
+            steps{
+                script{
+                    docker_img = docker.build "${IMAGE_NAME}"
+                }
+            }
+        }
+        stage('Push to DockerHub') {
+            steps{
+                script{
+                    docker.withRegistry('', REGISTRY_CREDS) {
+                        docker_img.push("${BUILD_NUMBER}")
+                        docker_img.push("latest")
+                    }
+                }
+            }
+        }
     }
 }

@@ -30,7 +30,7 @@ def health():
 
 @app.route("/")
 def home():
-    return "Welcome to My Test Application For ArgoCD and K8s"
+    return "Welcome to My Test Application For ArgoCD and K8's"
    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
