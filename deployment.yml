@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test:18
+  name: test:19
 spec:
   selector:
     matchLabels:
-      app: test:18
+      app: test:19
   template:
     metadata:
       labels:
-        app: test:18
+        app: test:19
     spec:
       containers:
-      - name: test:18
-        image: harshau04/test:18
+      - name: test:19
+        image: harshau04/test:19
         resources:
           limits:
             memory: "128Mi"
