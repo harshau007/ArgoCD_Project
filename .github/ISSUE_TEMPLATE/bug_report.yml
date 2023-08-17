@@ -45,7 +45,7 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: CheckList
+      label: Terms and Conditions
       description: By submitting this issue, you agree to follow our [Code of Conduct]()
       options:
         - label: I agree to follow this project's Code of Conduct
