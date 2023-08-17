@@ -1,0 +1,2 @@
+branchName: '${issue.title}'
+defaultBranch: 'dev'
