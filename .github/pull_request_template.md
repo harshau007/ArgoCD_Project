@@ -9,5 +9,5 @@
 <!--- Add Screenshots -->
 
 ####  Terms and Conditions:
-- [ ] Read Code of Conduct.
-- [ ] Followed Contributing.md
+- [ ] I have read Code of Conduct
+- [ ] I have followed Contributing.md
