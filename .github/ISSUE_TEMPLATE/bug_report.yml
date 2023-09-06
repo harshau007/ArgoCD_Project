@@ -1,6 +1,6 @@
 name: Bug report ❗
 description: Report a non-security sensitive bug or unexpected behavior
-title: "🐛 [BUG] - <title>"
+title: "[BUG] - <title>"
 labels: ["bug"]
 body:
   - type: textarea
