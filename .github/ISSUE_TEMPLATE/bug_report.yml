@@ -32,15 +32,15 @@ body:
         3. Scroll down to '....'
         4. See error
     validations:
-      required: false
+      required: true
   - type: textarea
+    id: screenshot
     attributes:
-      label: Additional context
-      description: Anything that will give us more context about the issue you are encountering (OS, Version, Links, References, ...)!
-      placeholder: |
-        - OS: [e.g. iOS 15]
-        - Browser [e.g. Chrome 100, Firefox 100]
-        - Version [e.g. v1.0.0]
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+      value: |
+        ![DESCRIPTION](LINK.png)
+      render: bash
     validations:
       required: false
   - type: checkboxes
