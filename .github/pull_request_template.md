@@ -1,13 +1,13 @@
-## Title:
+# Title:
 
-#### Issue No: <!--- #321 -->
+### Issue No: <!--- #321 -->
 
-#### Description: 
+### Description: 
 <!--- Describe your changes in detail -->
 
-#### Screenshot (if Applicable): 
+### Screenshot (if Applicable): 
 <!--- Add Screenshots -->
 
-####  Terms and Conditions:
+###  Terms and Conditions:
 - [ ] I have read Code of Conduct
 - [ ] I have followed Contributing.md
