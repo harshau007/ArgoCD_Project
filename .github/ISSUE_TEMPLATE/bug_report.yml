@@ -38,7 +38,7 @@ body:
     attributes:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
-      value: |
+      placeholder: |
         ![DESCRIPTION](LINK.png)
       render: bash
     validations:
