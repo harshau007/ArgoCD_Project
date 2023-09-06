@@ -1,5 +1,5 @@
-THIS PROJECT IS IN MAINTENANCE MODE. We accept pull-requests for Bug Fixes **ONLY**. NO NEW FEATURES ACCEPTED!
-
+title: "[BUG] - <title>"
+labels: bug
 <!--- Provide a general summary of your changes in the Title above -->
 
 ## Description
